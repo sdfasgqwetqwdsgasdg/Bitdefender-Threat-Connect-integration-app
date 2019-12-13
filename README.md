@@ -105,7 +105,7 @@ value</li>
 <tr>
 <td>APT File IP</td>
 <td>Address</td>
-<td>apt-ip</td>
+<td>APT IP</td>
 </tr>
 <tr>
 <td>APT File feed</td>
