@@ -89,15 +89,16 @@ value</li>
 </ul>
 <p>In simple words the recommended deprecation rule can be stated as, "<em>After every day, drop the confidence of each indicator by   100% of its previous value and when any indicator’s confidence reaches the minimum value, delete it from ThreatConnect"</em></p>
 <h1 id="viewing-and-filtering-the-data">Viewing and filtering the data</h1>
-<p>To view the data, click on <strong>Browse</strong> button located in the top menu of ThreatConnect console. From here, there are two options: either filter by selecting a specific <strong>Indicator</strong> or by searching for a specific <strong>Tag</strong> name .</p>
-<p>The mapping between Bitdefender feed data and the Indicators and Tags that are added in ThreatConnect can be observed in the table</p>
+<p>To view the data, click on <strong>Browse</strong> button located in the top menu of ThreatConnect console. From here, there are two options: either filter by selecting a specific <strong>Indicator</strong> or by searching for a specific indicator.</p>
+<p>Each indicator imported from Bitdefender feeds will have a custom attributed named <b>Bitdefender Threat Type</b> whose value will be set according to the table below.
+  
 
 <table>
 <thead>
 <tr>
 <th>Feed name</th>
 <th>Indicator type</th>
-<th>Tag</th>
+<th>Bitdefender Threat Type</th>
 </tr>
 </thead>
 <tbody>
@@ -109,7 +110,7 @@ value</li>
 <tr>
 <td>APT File feed</td>
 <td>File</td>
-<td>apt-file</td>
+<td>APT file hash</td>
 </tr>
 <tr>
 <td>C&amp;C IP</td>
@@ -119,12 +120,12 @@ value</li>
 <tr>
 <td>Phishing Domains</td>
 <td>Host</td>
-<td>phishing-domains</td>
+<td>Phishing domains</td>
 </tr>
 <tr>
 <td>Malware Domains</td>
 <td>Host</td>
-<td>malware-domains</td>
+<td>Malware domains</td>
 </tr>
 </tbody>
 </table>
