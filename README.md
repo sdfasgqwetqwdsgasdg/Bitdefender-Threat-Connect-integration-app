@@ -115,17 +115,17 @@ value</li>
 <tr>
 <td>C&amp;C IP</td>
 <td>Address</td>
-<td>c2-ip</td>
+<td>C2 IP</td>
 </tr>
 <tr>
 <td>Phishing Domains</td>
 <td>Host</td>
-<td>Phishing domains</td>
+<td>Phishing domain</td>
 </tr>
 <tr>
 <td>Malware Domains</td>
 <td>Host</td>
-<td>Malware domains</td>
+<td>Malware domain</td>
 </tr>
 </tbody>
 </table>
